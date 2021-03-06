@@ -14,14 +14,14 @@ Unfortunately, I'm not developing mobile anymore. This repo will not receive upd
 
 ## Install
 
-Follow this [GUIDE](https://pub.dartlang.org/packages/flutter_masked_text2#-installing-tab-)
+Follow this [GUIDE](https://pub.dartlang.org/packages/flutter_masked_text2#-install)
 
 ## Usage
 
 Import the library
 
 ```dart
-import 'package:flutter_masked_text/flutter_masked_text.dart';
+import 'package:flutter_masked_text2/flutter_masked_text2.dart';
 ```
 
 ## MaskedText

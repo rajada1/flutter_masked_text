@@ -1,3 +1,7 @@
+## 0.9.1
+
+- Update readme
+
 ## 0.9.0
 
 - Migrate to null safety
