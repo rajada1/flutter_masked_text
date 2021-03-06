@@ -1,5 +1,5 @@
+import 'package:flutter_masked_text2/flutter_masked_text2.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_masked_text/flutter_masked_text.dart';
 
 void main() {
   group('masked text', () {
