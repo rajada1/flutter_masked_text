@@ -2,7 +2,7 @@
 
 Masked text input for flutter.
 
-![travis-ci](https://travis-ci.org/benhurott/flutter-masked-text.svg?branch=master)
+![travis-ci](https://travis-ci.org/djade007/flutter_masked_text.svg?branch=master)
 
 ![logo](doc/flutter_logo.png)
 
@@ -14,7 +14,7 @@ Unfortunately, I'm not developing mobile anymore. This repo will not receive upd
 
 ## Install
 
-Follow this [GUIDE](https://pub.dartlang.org/packages/flutter_masked_text#-installing-tab-)
+Follow this [GUIDE](https://pub.dartlang.org/packages/flutter_masked_text2#-installing-tab-)
 
 ## Usage
 
