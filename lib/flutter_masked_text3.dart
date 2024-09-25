@@ -135,7 +135,7 @@ class MoneyMaskedTextController extends TextEditingController {
     _validateConfig();
 
     this.addListener(() {
-      this.updateValue(this.numberValue);
+      this.updateValue(this.numberValue ?? initialValue);
       this.afterChange(this.text, this.numberValue);
     });
 
@@ -180,13 +180,13 @@ class MoneyMaskedTextController extends TextEditingController {
     }
   }
 
-  double get numberValue {
+  double? get numberValue {
     List<String> parts =
         _getOnlyNumbers(this.text).split('').toList(growable: true);
 
     parts.insert(parts.length - precision, '.');
 
-    return double.parse(parts.join());
+    return double.tryParse(parts.join());
   }
 
   _validateConfig() {
