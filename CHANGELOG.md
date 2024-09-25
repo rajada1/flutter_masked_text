@@ -1,4 +1,8 @@
-## 0.9.2
+## 0.9.4
+
+- Fix FormatException thrown in MoneyMaskedTextController
+
+## 0.9.3
 
 - Add null check on optional mask
 
