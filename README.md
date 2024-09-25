@@ -21,7 +21,7 @@ Follow this [GUIDE](https://pub.dartlang.org/packages/flutter_masked_text2#-inst
 Import the library
 
 ```dart
-import 'package:flutter_masked_text2/flutter_masked_text2.dart';
+import 'package:flutter_masked_text3/flutter_masked_text3.dart';
 ```
 
 ## MaskedText
