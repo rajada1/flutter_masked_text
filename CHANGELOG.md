@@ -1,3 +1,7 @@
+## 0.9.2
+
+- Add null check on optional mask
+
 ## 0.9.1
 
 - Update readme
