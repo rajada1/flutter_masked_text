@@ -73,12 +73,16 @@ class MaskedTextController extends TextEditingController {
   String _applyMask(String? mask, String value) {
     String result = '';
 
+    if(mask == null) {
+      return value;
+    }
+
     var maskCharIndex = 0;
     var valueCharIndex = 0;
 
     while (true) {
       // if mask is ended, break.
-      if (maskCharIndex == mask!.length) {
+      if (maskCharIndex == mask.length) {
         break;
       }
 
