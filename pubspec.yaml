@@ -1,6 +1,6 @@
 name: flutter_masked_text3
 description: Masked text input for flutter.
-version: 0.9.2
+version: 0.9.3
 homepage: https://github.com/GabriellArthur/flutter_masked_text
 
 dependencies:
